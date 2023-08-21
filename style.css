@@ -72,7 +72,7 @@ article {
 .dashboard-table {
     margin: 20px auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 95%;
 }
 
 .dashboard-table .table-header {
@@ -83,6 +83,7 @@ article {
 
 .table-header th {
     padding: 20px;
+    font-size: 1.8rem;
 }
 
 .dashboard-table tr:nth-child(even) {
@@ -95,11 +96,12 @@ article {
 
 .dashboard-table td {
     padding: 5px;
+    font-size: 1.6rem;
     
 }
 
 .dashboard-table td:hover {
-    font-size: 16px;
+    font-size: 1.45rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
