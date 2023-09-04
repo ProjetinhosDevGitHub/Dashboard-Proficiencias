@@ -125,7 +125,7 @@ article {
   height: 50px;
   overflow: hidden;
   position: relative;
-  float: left;
+  margin-left: 25%;
 }
 
 .circle img {
@@ -135,8 +135,13 @@ article {
 }
 
 .name {
-    margin-top: 5%;
-    float: right;
+    margin-top: 3%;
+}
+
+.professional-section {
+    display: grid;
+    border: none;
+    grid-template-columns: auto auto;
 }
 
 @media (min-width: 700px) {
