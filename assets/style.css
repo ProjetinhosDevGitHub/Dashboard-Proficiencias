@@ -7,11 +7,7 @@
 }
 
 html {
-    min-width: 500px;
-}
-
-body {
-     
+    min-width: 850px;
 }
 
 nav {
@@ -27,13 +23,13 @@ nav img {
 }
 
 .btn {
-    padding: 20px 10px 0 10px;
-    margin: 10px 20px;
+    padding: 10px;
+    margin: auto 15px;
 
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.274);
 
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -51,8 +47,10 @@ nav img {
     color: white;
 }
 
-section {
-
+.btn:active {
+    background-color: #dbc00d;
+    color: black;
+    border-color: #c5ad0e;
 }
 
 header {
@@ -65,12 +63,8 @@ header .title {
     font-size: 4em;
 }
 
-article {
-
-}
-
 .dashboard-table {
-    margin: 20px auto;
+    margin: 10px auto;
     border-collapse: collapse;
     width: 95%;
 }
@@ -103,7 +97,7 @@ article {
     padding: 20px 10px;
     font-size: 2em;
     text-align: center;
-    height: 90px; 
+    height: 90px;
 }
 
 .dashboard-table td:hover {
@@ -115,9 +109,7 @@ article {
     background-color: #dbc00d;
     transition: 0s;
 }
-/*img{
-    border-radius: 50%;
-}*/
+
 .circle {
   background-color: #aaa;
   border-radius: 50%;
@@ -125,7 +117,6 @@ article {
   height: 50px;
   overflow: hidden;
   position: relative;
-  margin-left: 25%;
 }
 
 .circle img {
@@ -134,17 +125,13 @@ article {
 }
 
 .name {
-    margin-top: 3%;
+    font-weight: 700;
 }
 
 .professional-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.pilar {
-    text-align: center;
 }
 
 .pilar img {
