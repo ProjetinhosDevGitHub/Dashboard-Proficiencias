@@ -22,37 +22,6 @@ nav img {
     padding: 10px 20px;
 }
 
-.btn {
-    padding: 10px;
-    margin: auto 15px;
-
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.274);
-
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-
-    background-color: rgb(235, 235, 235);
-
-    box-shadow: 1px 1px 10px white, 1px 1px 10px white inset;
-}
-
-.btn:hover {
-    cursor: pointer;
-    background-color: #b6b8b6;
-    border: 1px solid white;
-    color: white;
-}
-
-.btn:active {
-    background-color: #dbc00d;
-    color: black;
-    border-color: #c5ad0e;
-}
-
 header {
     text-align: center;
     margin: 10px;
