@@ -102,11 +102,10 @@ article {
 .dashboard-table td {
     padding: 20px 10px;
     font-size: 2em;
-    
+    text-align: center;    
 }
 
 .dashboard-table td:hover {
-    font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -129,7 +128,6 @@ article {
 }
 
 .circle img {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -142,6 +140,15 @@ article {
     display: grid;
     border: none;
     grid-template-columns: auto auto;
+}
+
+.pilar {
+    text-align: center;
+}
+
+.pilar img {
+    width: 50px;
+    height: 50px;
 }
 
 @media (min-width: 700px) {
